@@ -1,0 +1,6 @@
+C:\Projekti\SeeddmsAutoFileUploader\SeeddmsAutoFileUploader\SetupSeeddmsAutoFileUploader\bin\Debug\SetupSeeddmsAutoFileUploader.msi
+C:\Projekti\SeeddmsAutoFileUploader\SeeddmsAutoFileUploader\SetupSeeddmsAutoFileUploader\bin\Debug\SetupSeeddmsAutoFileUploader.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\SetupSeeddmsAutoFileUploader.wixproj.BindContentsFileListnull.txt
+obj\Debug\SetupSeeddmsAutoFileUploader.wixproj.BindOutputsFileListnull.txt
+obj\Debug\SetupSeeddmsAutoFileUploader.wixproj.BindBuiltOutputsFileListnull.txt

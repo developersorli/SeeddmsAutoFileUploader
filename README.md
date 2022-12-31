@@ -87,5 +87,5 @@ Download new version (stable v.1.0.2) and install it.
 
 ## 3 How to usage it
 After install pc client you can test it by clicking on the link
-[Click here to Test plugi](sorli://about).
+[Click here to Test plugin](sorli://about).
 

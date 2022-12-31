@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @category   SeeddmsAutoFileUploader
+ * @license    GPL 2
+ * @author     Serge Sorli <sergej@sorli.org>
+ * @copyright  Copyright (C) 2020-2023 Sorli.org,
+ */
+-->
+
+  <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="SeeddmsAutoFileUploader" Language="1033" Version="1.0.0.0" Manufacturer="sorli.org" UpgradeCode="78e6e747-461e-4d4c-a860-cfc295b12033">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" Comments="Windows Installer Package" />
+		
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<Media Id="1" Cabinet="product.cab" EmbedCab="yes"/>
+
+		<Feature Id="ProductFeature" Title="SetupSeeddmsAutoFileUploader" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+		<!--Custom UI for installer-->
+		<UIRef Id="WixUI_InstallDir" />
+		<!--EndUser License aggrement-->
+		<WixVariable Id="WixUILicenseRtf" Overridable="yes" Value="EULA.rtf" />
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="SeeddmsAutoFileUploader" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+			<Component Id="ProductComponent">
+				<!-- TODO: Insert files, registry keys, and other resources here. -->
+				<File Source="$(var.SeeddmsAutoFileUploader.TargetPath)" />
+			</Component>
+
+			<Component Id="RegistryEntries" >
+				<RegistryKey Root="HKCR"
+							   Key="sorli"
+							   Action="createAndRemoveOnUninstall">
+					<RegistryValue Type="string" Value="Seeddms Auto File Uploader" KeyPath="no"/>
+					<RegistryValue Type="string" Name="URL Protocol" Value="" KeyPath="no"/>
+				</RegistryKey>
+				<RegistryKey Root="HKCR"
+							   Key="sorli\DefaultIcon"
+							   Action="createAndRemoveOnUninstall">
+					<RegistryValue Type="string" Value="SeeddmsAutoFileUploader.exe,1" KeyPath="no"/>
+				</RegistryKey>
+			
+				<RegistryKey Root="HKCR"
+							   Key="sorli\shell"
+							   Action="createAndRemoveOnUninstall">
+				</RegistryKey>
+				<RegistryKey Root="HKCR"
+							   Key="sorli\shell\open"
+							   Action="createAndRemoveOnUninstall">
+				</RegistryKey>
+				<RegistryKey Root="HKCR"
+							   Key="sorli\shell\open\command"
+							   Action="createAndRemoveOnUninstall">
+					<RegistryValue Type="string" Value='"[INSTALLFOLDER]SeeddmsAutoFileUploader.exe" "%1"' KeyPath="no"/>
+				</RegistryKey>
+			</Component>
+			<Component Id="RegistryEntriesUser" >
+				<RegistryKey Root="HKCU"
+							   Key="SOFTWARE\SeeddmsAutoFileUploader"
+							   Action="createAndRemoveOnUninstall">
+					<RegistryValue Type="string" Name="us" Value='' KeyPath="no"/>
+					<RegistryValue Type="string" Name="ps" Value='' KeyPath="no"/>
+				</RegistryKey>
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+</Wix>
