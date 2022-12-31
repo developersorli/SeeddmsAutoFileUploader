@@ -1,0 +1,9 @@
+
+*.vsidx
+*.lock
+client/.vs/SeeddmsAutoFileUploader/v17/.suo
+*.cache
+*.wixpdb
+client/SetupSeeddmsAutoFileUploader/obj/Release/SetupSeeddmsAutoFileUploader.wixproj.BindBuiltOutputsFileListnull.txt
+client/SetupSeeddmsAutoFileUploader/obj/Release/SetupSeeddmsAutoFileUploader.wixproj.BindOutputsFileListnull.txt
+client/SetupSeeddmsAutoFileUploader/obj/Release/SetupSeeddmsAutoFileUploader.wixproj.FileList.txt
