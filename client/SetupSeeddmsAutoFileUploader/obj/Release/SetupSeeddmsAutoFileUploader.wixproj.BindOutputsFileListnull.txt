@@ -1,2 +1,0 @@
-Z:\SeeddmsAutoFileUploader\SeeddmsAutoFileUploader\SetupSeeddmsAutoFileUploader\bin\Release\SetupSeeddmsAutoFileUploader.msi
-Z:\SeeddmsAutoFileUploader\SeeddmsAutoFileUploader\SetupSeeddmsAutoFileUploader\bin\Release\SetupSeeddmsAutoFileUploader.wixpdb
