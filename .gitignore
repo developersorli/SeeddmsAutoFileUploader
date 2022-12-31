@@ -13,3 +13,9 @@ client/SetupSeeddmsAutoFileUploader/obj/Release/SetupSeeddmsAutoFileUploader.wix
 client/SetupSeeddmsAutoFileUploader/bin/Debug/SetupSeeddmsAutoFileUploader.msi
 client/SetupSeeddmsAutoFileUploader/bin/Debug/SetupSeeddmsAutoFileUploader.wixpdb
 client/SetupSeeddmsAutoFileUploader/bin/Debug/SetupSeeddmsAutoFileUploader.msi
+client/SeeddmsAutoFileUploader/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+client/SetupSeeddmsAutoFileUploader/bin/Release/SetupSeeddmsAutoFileUploader.wixpdb
+client/SetupSeeddmsAutoFileUploader/obj/Release/Product.wixobj
+Thumbs.db
+client/SetupSeeddmsAutoFileUploader/obj/Release/SetupSeeddmsAutoFileUploader.wixproj.FileList.txt
+client/SetupSeeddmsAutoFileUploader/obj/Release/SetupSeeddmsAutoFileUploader.wixproj.BindOutputsFileListnull.txt
