@@ -79,7 +79,7 @@ seeddms-6.0.13/styles/bootstrap/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png
 seeddms-6.0.13/styles/bootstrap/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png
 seeddms-6.0.13/styles/bootstrap/jquery/images/ui-icons_222222_256x240.png
 ```
-Files can be downloaded here:
+Files can be downloaded here:[Click here to download files](https://github.com/developersorli/SeeddmsAutoFileUploader/raw/main/server%20patch/release/replace.zip)
 
 
 ### 2.2 Install on PC
