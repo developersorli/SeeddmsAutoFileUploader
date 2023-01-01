@@ -15,7 +15,7 @@ First you have to patch SeedDms php code on server and install client on Windows
 ### 2.1 Install on server
 
 #### 2.1.1 Edit “class.ViewDocument.php” file
-Corest path of document is here:
+Correct path of document is here:
 ```
 seeddms-6.0.13/views/bootstrap/class.ViewDocument.php
 ```
