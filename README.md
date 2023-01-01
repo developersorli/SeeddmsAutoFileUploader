@@ -85,7 +85,7 @@ Files can be downloaded here:
 ### 2.2 Install on PC
 
 Download new version (stable v.1.0.2) and install it.
-[Click here to download Setup](https://github.com/developersorli/SeeddmsAutoFileUploader/blob/main/client/SetupSeeddmsAutoFileUploader/bin/Release/SetupSeeddmsAutoFileUploader.msi)
+[Click here to download Setup](https://github.com/developersorli/SeeddmsAutoFileUploader/raw/main/client/SetupSeeddmsAutoFileUploader/bin/Release/SetupSeeddmsAutoFileUploader.msi)
 
 ## 3 How to usage it
 After install pc client you can test it by clicking on the link
