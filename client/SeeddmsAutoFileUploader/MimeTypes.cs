@@ -3,12 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-/**
- * @category   SeeddmsAutoFileUploader
- * @license    GPL 2
- * @author     Serge Sorli <sergej@sorli.org>
- * @copyright  Copyright (C) 2020-2023 Sorli.org,
- */
+
 namespace WindowsFormsApp1
 {
     public static class MimeTypeMap
